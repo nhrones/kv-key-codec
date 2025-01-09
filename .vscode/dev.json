@@ -1,0 +1,8 @@
+{
+   "RUN": {
+      "Serve": "",
+      "Port": 80,
+      "DEV": true,
+      "HtmlName": "index.html"
+   }
+}

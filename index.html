@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <!-- Suppress browser request for favicon.ico -->
+   <link rel="shortcut icon" type="image/x-icon" href="data:image/x-icon;,">
+   <!-- Minified simple.css -->
+   <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css">
+   <script type=module src="./dist/index.js"></script>
+   <title>KvKeyCodec</title>
+   <style>
+      pre {
+         overflow-x: auto;
+         overflow-y: hidden;
+         white-space: pre-wrap;
+         word-wrap: break-word;
+      }
+   </style>
+</head>
+
+<body>
+   <h2>Kv Key Encoder</h2>
+   <label for="keyinput">Enter a valid Deno KvKey array</label>
+   <textarea id="keyinput" name="keyinput"></textarea>
+   <button id="encodebtn">Encode Key</button>
+   <pre id="result"></pre>
+</body>
+
+</html>
