@@ -1,4 +1,12 @@
 {
+   "BUILD": {
+      "BundleName": "kvKeyCodec.js",
+      "Entry": [
+         "./src/mod.ts"
+      ],
+      "Minify": false,
+      "OutPath": "dist"
+   },
    "RUN": {
       "Serve": "",
       "Port": 80,

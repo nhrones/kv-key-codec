@@ -4,21 +4,18 @@
    "version": "2.0.0",
    "tasks": [
    {
-      "type": "deno",
-      "command": "run",
-      "args": [
-         "-A",
-         "buildIt.ts"
-      ],
-      "problemMatcher": [
-         "$deno"
-      ],
-      "label": "BUILD"
+      "label": "BUILD",
+      "type": "shell",
+      "command": "deno run --allow-all --no-config ./build.ts"
    },
    {
+      "label": "TEST",
       "type": "shell",
-      "command": "serve",
-      "label": "RUN"
+      "command": "deno test"
+   },
+   {
+      "label": "RUN",
+      "type": "shell",
+      "command": "deno run --allow-all --no-config https://jsr.io/@ndh/simple/1.1.5/mod.ts"
    }
-]       
-   }
+]}
