@@ -1,3 +1,4 @@
+## The double datatype [IEEE 754-2008]
 3.3.5 double
 [Definition:]  The double datatype is patterned after the IEEE double-precision 64-bit floating point datatype [IEEE 754-2008].  Each floating point datatype has a value space that is a subset of the rational numbers.  Floating point numbers are often used to approximate arbitrary real numbers.
 
